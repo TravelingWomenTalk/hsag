@@ -1,0 +1,16 @@
+.photo {
+  width: 16%;
+  border-radius:10%;
+}
+
+.text-align-center {
+text-align: center;
+}
+
+.logo {
+height: 22px;
+}
+
+h2 {
+  color:	 #d9534f !important;
+}

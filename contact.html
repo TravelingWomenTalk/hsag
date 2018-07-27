@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>HSAG | Home</title>
+    <title>HSAG | Contact</title>
 
     <link rel="stylesheet" href="css/main.css">
 
@@ -30,7 +30,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active border-bottom border-danger">
+                    <li class="nav-item active">
                         <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item active">
@@ -42,7 +42,7 @@
                     <li class="nav-item active">
                         <a class="nav-link" href="ppdiv.html">P&P Division</a>
                     </li>
-                    <li class="nav-item active">
+                    <li class="nav-item active border-bottom border-danger">
                         <a class="nav-link" href="contact.html">Contact</a>
                     </li>
                 </ul>
@@ -55,30 +55,31 @@
         <div class="row">
             <div class="main col-sm-12 col-md-8 offset-md-2 col-lg-8 offset-lg-2">
                 <div class="mt-5 mb-6">
-                    <h2>What We Do</h2>
-                    <p>
-                        Harvard Strategic Advisors Group’s Profit and Performance Division assists clients understand their company’s opportunities
-                        to improve product marketing, operations, organizational structure and capital structure to increase
-                        profits and ensure compliance, market and technology risk are mitigated. HSAG is committed to providing
-                        best in class business practices to business leaders, who are striving to improve their organizations
-                        bottom line profits. We learn about your business, challenges you are facing and use local and global
-                        knowledge to provide sustainable strategies that help your business innovate and grow while reducing
-                        costs, and promoting profit.
-                        <br><br> 
-                        Harvard Strategic Advisors Group’s Construction Consulting Services Division is a multi-disciplined
-                        construction consulting firm servicing a variety of industries and project types. We assist clients
-                        with Project Planning, Restoration/Remediation/Reconstruction Facilitation Services, Owner’s Representation
-                        and Program Management Services, Risk Management Services. Construction Program Management and Construction
-                        Management Consulting. HSAG is committed to delivering excellence to contractors, owners, engineers,
-                        architects and financial institutions by maintaining the highest standards of quality within the
-                        construction industry.
-                        <br><br>
-                        <a class="btn btn-outline-primary" href="contact.html" role="button">Contact us or subscribe to our newsletter.</a>
-                    </p>
+                    <h2>Sign up for our newsletter or send us a message.</h2>
+                    <form action="https://formspree.io/harvardstrategicadvisorsgroup@gmail.com" method="POST">
+                        <div class="form-group">
+                            <label for="name">Name:</label>
+                            <input type="text" class="form-control" id="email" placeholder="Enter name" name="name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter email" name="_replyto">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message:</label>
+                            <textarea type="text" name="message" class="form-control" rows="5" id="message" placeholder="Enter message"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="newsletter">Sign up for newsletter? (yes/no)</label>
+                            <input type="text" class="form-control" id="newsletter" placeholder="yes/no" name="newsletter">
+                        </div>
+                        <input type="submit" value="Send" class="btn btn-outline-primary">
+                    </form>
                 </div>
             </div>
         </div>
     </div>
+
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>

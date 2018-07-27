@@ -1,7 +1,5 @@
 # Harvard Strategic Advisors Group
 Business site.
 
-# Technology
-* Jekyll
-* SCSS
-* Bootstrap
+# Dependencies
+* Bootstrap 4
